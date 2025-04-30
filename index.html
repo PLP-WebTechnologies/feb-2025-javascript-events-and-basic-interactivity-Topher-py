@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive web page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="DOM.js" defer></script>
+  </head>
+  <body>
+    <h2>Interactive Webpage</h2>
+    <button id="toggleBtn">Click Me</button>
+    <div id="hoverBox">Hover over me</div>
+    <div class="secret" id="secret">Double-click this secret spot</div>
+
+    <h2>Interactive Tabs</h2>
+    <div class="tab" data-target="tab1">Fun Fact 1</div>
+    <div class="tab" data-target="tab2">Fun Fact 2</div>
+    <div id="tab1" class="content">
+      Octopuses have three hearts, and two of them stop beating when they swim.
+    </div>
+    <div id="tab2" class="content">
+      Bananas are berries, but strawberries aren't!
+    </div>
+
+    <h2>Form Validation</h2>
+    <form id="myForm">
+      <input type="email" id="email" placeholder="Email" required /><br />
+      <input
+        type="password"
+        id="password"
+        placeholder="Password"
+        required
+      /><br />
+      <span id="feedback"></span><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+body { 
+    font-family: Arial, sans-serif; 
+    padding: 20px;
+ }
+ .secret { 
+    width: 200px;
+    background: #6fafc9; 
+    padding: 10px; 
+    margin-top: 10px; 
+    border: 1px solid #ccc; } 
+#toggleBtn { 
+    padding: 10px 20px; 
+    background: #007bff; 
+    color: white; 
+    border: none; 
+    cursor: pointer; }
+#toggleBtn.clicked { 
+    background: green; }
+#hoverBox { 
+    width: 200px;
+    padding: 20px; 
+    background: #79b0c4; 
+    margin-top: 10px; }
+.tab { 
+    padding: 10px; 
+    cursor: pointer; 
+    background: #ccc; 
+    display: inline-block; 
+    margin-right: 5px; }
+.content { 
+    display: none; 
+    margin-top: 10px; }
+
+.fade-in { animation: fadeIn 1s ease-in-out forwards; }
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+#feedback { 
+    margin-top: 5px; 
+    color: rgb(32, 126, 214); }
